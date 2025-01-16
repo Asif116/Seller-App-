@@ -10,7 +10,7 @@ CREATE TABLE `sellers` (
   `rating` int DEFAULT NULL,
   `review` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+) 
 
 INSERT INTO sellers (name, rating, review) VALUES
 ('Asif', 5, 'Great service..'),
